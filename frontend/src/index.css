@@ -1,0 +1,77 @@
+*{
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+body{
+  background-color: azure;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+.form {
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 60%;
+  height: 500px;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  position: relative;
+  background-color: skyblue;
+  font-weight: 700;
+}
+
+.messages {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 10px 20px;
+  font-size: large;
+  scrollbar-width: thin;
+  scrollbar-color: #888 white;
+}
+
+.inputField {
+  position: sticky;
+  bottom: 0;
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid #ddd;
+}
+
+.Input {
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: larger;
+}
+
+.Button {
+  width: 25%;
+  margin: auto;
+  height: 50px;
+  border-radius: 50px;
+  font-size: xx-large;
+  background-color: aquamarine;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Button:hover {
+  background-color: rgb(9, 227, 154);
+  cursor: pointer;
+}
+
+.details{
+  text-align: center;
+}
